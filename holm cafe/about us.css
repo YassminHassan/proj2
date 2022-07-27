@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(214, 186, 150)
+    }
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+  display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(5, 128, 70, 0.774) ;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 249, 249);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.bg-image {
+        background-image: url(bg.jpg) ;
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .bg-text {
+            background-color: rgb(13, 160, 57);
+            background-color: rgba(10, 168, 81, 0.4); 
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: 
+            }
+            h2{
+                font-style: italic;
+                text-decoration: underline;
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+            .fa {
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              }
+              .fa:hover {
+                opacity: 0.7;
+              }
+              .fa-facebook {
+                background: #3B5998;
+                color: white;
+              }
+              .fa-instagram {
+                background: #f10909;
+                color: white;
+              }
+.text{
+    padding: 5px;
+    margin-left: 5px;
+    font-size: x-large;
+    width: 450px;
+    text-align: left;
+    font-weight: 500;
+}
+div.text{
+    background-color: rgb(84, 212, 148);
+    margin: 5px;
+    padding: 5px;
+    border-style: double;
+    border-color: bisque;
+    
+
+}
